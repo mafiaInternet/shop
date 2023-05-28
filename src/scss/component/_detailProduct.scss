@@ -1,0 +1,149 @@
+.detailProduct {
+  &__content {
+    width: 80%;
+    margin: 0 auto;
+    &__view {
+      margin: 30px 0;
+      background-color: #ffff;
+      padding: 10px;
+      border-radius: 10px;
+      &__img {
+        text-align: center;
+      }
+      &__info {
+        &__title {
+          text-transform: capitalize;
+          font-weight: 400;
+        }
+        &__text {
+          font-size: 1.5em;
+          span {
+            font-weight: 700;
+          }
+        }
+        &__price {
+          display: flex;
+          &__new {
+            color: #c92127;
+            font-size: 3em;
+            font-weight: 700;
+          }
+          &__old {
+            font-weight: 500;
+            font-size: 1.8em;
+            // padding-bottom: 20px;
+            // margin: 10px;
+            margin: 10px;
+            text-align: center;
+            text-decoration: line-through;
+          }
+          &__discount {
+            background-color: #c92127;
+            font-size: 1.5em;
+            margin: 10px 0;
+            border-radius: 3px;
+            color: #ffff;
+            font-weight: 700;
+            padding: 3px 5px 0 5px;
+          }
+        }
+        &__delivery {
+          font-size: 1.4em;
+        }
+        &__quantity {
+          display: flex;
+          span {
+            font-size: 1.7em;
+            font-weight: 600;
+            color: #555555;
+          }
+          &__value {
+            margin-left: 20px;
+            border: 1px solid #555555;
+            border-radius: 3px;
+            margin-left: 88px;
+            padding: 0 20px;
+            button {
+              border: none;
+              background-color: transparent;
+              font-size: 2em;
+              color: #555555;
+            }
+            input {
+              border: none;
+              background-color: transparent;
+              width: 20px;
+              font-size: 2em;
+              text-align: center;
+              margin: 0 20px;
+              font-weight: 700;
+            }
+          }
+        }
+        &__nnxb {
+          background-color: #c9f0ff;
+          color: #2489f4;
+          padding: 10px;
+          font-size: 1.3em;
+          font-weight: 700;
+          margin-top: 20px;
+        }
+      }
+    }
+    &__info {
+      background-color: #ffff;
+      padding: 15px;
+      border-radius: 10px;
+      
+      &__name {
+        font-size: 1.4em;
+        font-weight: 500;
+        color: #807d7d;
+        margin-bottom: 10px;
+      }
+      &__value {
+        font-size: 1.4em;
+        color: black;
+        margin-bottom: 10px;
+      }
+      &__text {
+        font-size: 1.5em;
+        border-bottom: 1px solid #807d7d;
+        padding-bottom: 10px;
+      }
+      &__intro {
+        p {
+          font-size: 1.3em;
+        }
+      }
+      &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+          width: 20%;
+          border: 2px solid #c92127;
+          border-radius: 10px;
+          color: #c92127;
+          &:hover {
+            background-color: transparent;
+            color: #c92127;
+          }
+        }
+        button:focus {
+          box-shadow: none;
+        }
+      }
+    }
+    &__icons {
+      margin: 10px 0 30px 0;
+      padding: 20px;
+      background-color: #ffff;
+      font-size: 1.8em;
+      font-weight: 500;
+      color: #807d7d;
+      border-radius: 10px;
+      text-align: center;
+    }
+  }
+}

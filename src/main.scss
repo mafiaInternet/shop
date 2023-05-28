@@ -1,0 +1,19 @@
+@use "./scss/base/base";
+@use "./scss/helper/mixin";
+
+
+
+@use "./scss/component/header";
+@use "./scss/component/sale";
+@use "./scss/component/flaseSale";
+@use "./scss/component/productPortfolio";
+@use "./scss/component/productTrends";
+@use "./scss/component/productOfSchool";
+@use "./scss/component/bookPsychologySkill";
+@use "./scss/component/footer";
+
+@use "./scss/component/cart";
+@use "./scss/component/detailProduct";
+@use "./scss/component/sign";
+@use "./scss/component/login";
+@use "./scss/component/account";

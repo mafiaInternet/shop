@@ -1,0 +1,60 @@
+
+    .sign__content{
+        width: 400px;
+   
+        background-color: #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &__form{
+            
+            width: 100%;
+            font-size: 1.5em;
+            label{
+                width: 100%;
+                margin: 10px 0;
+            }
+            &__name{
+                &__input{
+                    width: 100%;
+                    padding: 5px;
+                }
+            }
+            &__pass{
+                border: 1px solid silver;
+                padding: 5px;
+                &__input{
+                    width: 89%;
+                    border: none;
+                }
+                span{
+                    cursor: pointer;
+                    color: rgb(3, 24, 218);
+                }
+                
+            }
+            
+        }
+        p{
+            text-align: right;
+            color: red;
+        }
+        &__button{
+                width: 80%;
+                margin: 0 auto;
+            button{
+                width: 100%;
+                text-align: center;
+            }
+            .btn-sign{
+                background-color: beige;
+                margin-bottom: 10px;
+            }
+            .btn-sign-facebook{
+                background-color: #2489F4;
+                color: #ffff;
+                
+            }
+        }
+    }

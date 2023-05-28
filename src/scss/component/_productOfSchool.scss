@@ -1,0 +1,33 @@
+.productOfSchool{
+    margin: 10px 0;
+   
+    &__slider{
+        padding: 0 20px;
+        background-color: #ffff;
+    }
+    .slick-next{
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        
+    }
+    .slick-prev{
+        left: 2px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .slick-next, .slick-prev{
+
+        
+        z-index: 1;
+    }
+    .slick-prev::before{
+        content: url(/public/accest/productOfSchool/chevron-left.svg);
+        
+    }
+    .slick-next::before{
+        content: url(/public/accest/productOfSchool/chevron-right.svg);
+    }
+}

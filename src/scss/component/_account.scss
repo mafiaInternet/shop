@@ -1,0 +1,38 @@
+.account{
+    &__content{
+
+       margin: 10px auto;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        background-color: #ffff;
+        padding: 20px;
+        
+        &__body{
+     
+            
+            .nav{
+                
+                &-item{
+                    width: 50%;
+                    font-size: 1.5em;
+                    
+                }
+                &-link{
+                    width: 100%;
+                    text-align: center;
+                    color: #646464;
+                }
+                &-link.active, &-link:hover{
+                    color: #C92127;
+                    background-color: transparent;
+                    border-bottom: 1px solid #C92127;
+                    border-radius: 0;
+                }
+            }
+
+        }
+        
+        
+    }
+}

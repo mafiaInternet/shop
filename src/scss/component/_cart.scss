@@ -1,0 +1,29 @@
+.cart{
+    &__content{
+        width: 80%;
+        margin: 0 auto;
+        h3{
+            span{
+                font-weight: 400;
+                font-size: 0.8em;
+            }
+        }
+        &__body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 500px;
+            background-color: #fff;
+            padding: 50px 0;
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            p{
+                font-size: 2em;
+            }
+        }
+    }
+}
